@@ -49,31 +49,20 @@
         </div>
       </div>
 
-      <form class="container">
+      <div class="container">
         <div class="row mb-3">
-          <div class="col-12 col-sm-4">
-            <label for="exampleInputEmail1" class="pt-2">
-              Cor escolhida:
-            </label>
-          </div>
-
-          <div class="col-12 col-sm-8">
-            <input
-              type="text"
-              class="form-control"
-              id="input-cor"
-            />
-          </div>
-          <div id="input-cor-help" class=" col-12 form-text">
-            Você pode usar qualquer formato de cor válido de CSS.
+          <div class="d-grid gap-2 d-md-flex flex-nowrap justify-content-md-center d-md-block ">
+            <button type="submit" id="botao-mais" class="btn btn-success order-md-3"><i class="bi bi-plus-circle-fill"></i> 1</button>
+            <button type="submit" id="botao-menos" class="btn btn-danger order-md-1"><i class="bi bi-dash-circle-fill"></i> 1</button>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <button type="submit" class="btn btn-primary"><i class="bi bi-eye-fill"></i> Ver</button>
+            <h1 class="contador-estilo" id="contador">0</h3>
           </div>
         </div>
-      </form>
+      </div>
+
 
     </main>
 
